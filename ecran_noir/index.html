@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Accueil - Services d'automatisation de l'accessibilité</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="page">
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid container-navbar">
+
+					<div class="navbar-header">
+						<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navVac" aria-expanded="false">
+							<span class="sr-only">Menu</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+
+				<div class="collapse navbar-collapse" id="navVac">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Ce que c'est</a></li>
+						<li><a href="#">À qui cela sert</a></li>
+						<li><a href="#">Les différents logiciels</a></li>
+						<li><a href="#">Comment ça marche</a></li>
+					</ul>
+				</div><!-- collapse -->
+			</div><!-- .container-fluid -->
+			</nav>
+
+			<h1 class="sr-only">Accueil - Services d'automatisation de l'accessibilité</h1>
+
+			<div class="banner container-fluid">
+				<h2 class="sr-only">Se connecter</h2>
+				<div class="container">
+					<div class="row">
+						<form class="col-md-6 col-md-offset-3">
+							<div class="row">
+								<div class="form-group col-md-5">
+									<label id="userLabel">Usager</label>
+									<div class="popover-info">
+										<!-- contenu de l'infobulle -->
+										<div class="popover-info-content">
+											<p>
+												Votre nom d'usager pour vous connecter à votre compte est le même que le courriel que vous avez utilisé pour vous inscrire.
+											</p>
+										</div><!-- .popover-info-content -->
+										<button id="popoverToggle" class="popover-info-toggle" aria-labelledby="popoverUser userLabel" data-toggle="popover" data-placement="top">
+											<span id="popoverUser" class="sr-only">Aide</span>
+											<span aria-hidden="true">?</span>
+										</button>
+									</div><!-- .popover-info -->
+
+									<input id="user" class="form-control" type="text" name="user">
+								</div><!-- .form-group -->
+
+								<div class="form-group col-md-5">
+									<label for="password">Mot de passe</label>
+									<input id="password" class="form-control" type="text" name="password">
+								</div><!-- .form-group -->
+								<div class="form-group col-md-2">
+								  <button class="btn-connecter">&#9654;</button>
+								</div>
+
+							</div><!-- .row -->
+
+						</form>
+					</div>
+
+				</div>
+
+			</div><!-- .banner -->
+
+		</header>
+
+		<main>
+
+			<div class="container container_p">
+				<h2>Les avantages d'un service d'automatisation</h2>
+				<p>Integer a dolor pellentesque, ultricies metus eu, pretium ligula. Quisque felis leo, tempus ac nunc in, dapibus vehicula velit. Proin eget ultricies nisi. Pellentesque feugiat orci sit amet vulputate facilisis. Vestibulum commodo ligula at libero posuere consectetur. Nullam pellentesque consequat ex, quis laoreet dui scelerisque malesuada. Phasellus accumsan urna tellus, sit amet pulvinar ante cursus nec. Integer non viverra nisl. Sed at dictum justo, sed faucibus ligula. Phasellus eros libero, rhoncus sed sem vitae, semper aliquam ipsum. Nullam cursus pretium felis sed semper.</p>
+				<p>Quisque et mauris et nisi tempor rutrum. Etiam est tellus, faucibus et risus sit amet, dapibus rhoncus enim. Aliquam ut hendrerit nisi, at rhoncus magna. Pellentesque varius ultrices sem, non pulvinar nisl pellentesque posuere. Curabitur odio nunc, aliquet eu mollis ut, gravida at ligula. Donec efficitur nulla turpis, id ornare ex tempus in. Aliquam eget nibh arcu. Suspendisse eget accumsan risus, et fermentum ipsum.</p>
+			</div>
+
+			<div class="news container-fluid">
+				<div class="inner-news container">
+					<div class="row">
+						<h2 class="sr-only">Notre communauté</h2>
+						<div class="newsletter col-md-12">
+							<h3>Infolettre</h3>
+							<p>Tu désires être tenu informé des nouveautés dans les services d'automatisation de l'accessibilité.</p>
+							<p>Abonne-toi à notre infolettre afin te suivre les percés dans le domaine.</p>
+							<a href="#" class="btn-default" data-toggle="modal" data-target="#modaleInfolettre">M'inscrire à l'infolettre</a>
+						</div><!-- .newsletter -->
+
+						
+					</div><!-- .row -->
+				</div><!-- .inner-news -->
+			</div><!-- .news -->
+
+		</main>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="social-media col-md-12">
+						<h2 class="sr-only">Suivez-nous sur les médias sociaux</h2>
+						<a href="#" class="icon facebook">
+							<span class="sr-only" lang="en">Facebook</span>
+						</a>
+						<a href="#" class="icon twitter">
+							<span class="sr-only">Twitter</span>
+						</a>
+						<a href="#" class="icon instagram">
+						</a>
+					</div>
+				</div><!-- .row -->
+
+				<div class="copyright row">
+					<div class="col-xs-12">
+						<p>Services d'automatisation de l'accessibilité © 2016 Tous droits réservés</p>
+
+					</div>
+				</div><!-- .row -->
+			</div><!-- .container  -->
+			<!-- zone de message pour l'utilisateur -->
+			<span id="communication" aria-live="polite"></span>
+		</footer>
+		<div class="blackscreen"></div>
+	</div><!-- .page -->
+
+	<!-- Fenêtre Modale Nous joindre-->
+	<div class="modal" id="modaleInfolettre" tabindex="-1" role="dialog"
+	aria-labelledby="infolettreTitle" aria-hidden="true">
+	<div class="modal-dialog modal-md" role="document">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<h3 class="modal-title" id="infolettreTitle">Je désire m'inscrire à l'infolettre</h3>
+				<a id="popoverModal" tabindex="0" class="popover-info-toggle" role="button" data-toggle="popover" data-trigger="focus" data-content="L'infolettre te permettra de recevoir de l'information concernant les dernière vacances à partager.">?</a>
+			</div> <!-- .modal-header -->
+
+			<div class="modal-body">
+				<form>
+					<div class="row">
+						<div class="form-group col-sm-6">
+							<label for="nom">Nom</label>
+							<input type="text" class="form-control" id="nom" />
+						</div><!-- .col-sm-6 -->
+						<div class="form-group col-sm-6">
+							<label>Prénom</label>
+							<input id="prenom" type="text" class="form-control" />
+						</div><!-- .col-sm-6 -->
+					</div><!-- .row -->
+
+					<div class="row">
+						<div class="form-group col-sm-6">
+							<label for="date">Date de naissance</label>
+							<input type="text" class="form-control" id="date" />
+							<span>Format attendu : jj-mm-aaaaa</span>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="courriel">Courriel</label>
+							<input type="email" class="form-control" id="courriel" />
+						</div><!-- .col-sm-12 -->
+					</div><!-- .row -->
+
+					<div class="row">
+						<div class="form-group col-sm-12">
+							<div id="errors" role="alert">
+
+							</div>
+						</div>
+					</div>
+				</form>
+			</div><!-- .modal-body -->
+
+			<div class="modal-footer">
+				<button>M'inscrire</button>
+			</div> <!-- .modal-footer -->
+		</div> <!-- .modal-content -->
+	</div> <!-- .modal-dialog -->
+</div> <!-- #nousJoindre -->
+
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="script/main.js"></script>
+</body>
+</html>

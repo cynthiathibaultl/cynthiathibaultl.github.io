@@ -1,0 +1,614 @@
+a:focus,
+button:focus,
+input:focus,
+input[type="checkbox"]:focus,
+input[type="radio"]:focus,
+form .form-control:focus,
+select:focus,
+textarea:focus,
+*[tabindex="-1"]:focus,
+*[tabindex="0"]:focus {
+  border: none;
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+  transition: none;
+}
+
+a:focus {
+  text-decoration: underline;
+}
+
+html,
+body {
+  font-size: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  cursor: default;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+}
+
+.page {
+  position: relative;
+}
+
+main {
+  padding-top: 40px;
+}
+
+.container_p {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5vh;
+  text-align: center;
+  clear: both;
+}
+
+p {
+  line-height: 1.2;
+}
+
+header {
+  background-color: #000000;
+  padding: 10px 0 0 0;
+}
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar .navbar-brand {
+  height: unset;
+  padding-top: 5px;
+}
+
+.navbar-header .navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+  display: inline-block !important;
+}
+
+.container-fluid.container-navbar {
+  text-align: center;
+}
+
+.plugin-facebook {
+  background: white;
+}
+
+.navbar .navbar-nav {
+  margin-top: 10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #6a6a6a;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.banner form {
+  margin-top: 25vh;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+form label {
+  margin-bottom: 10px;
+
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 1.6rem;
+}
+
+form .btn-connecter {
+  margin: 10px auto 20px auto;
+
+  display: block;
+  padding: 6px 12px;
+  width: 100%;
+
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  line-height: 1.42857143;
+
+  margin-top: 34px;
+  margin-bottom: 0;
+}
+
+form .btn-connecter:hover,
+form .btn-connecter:focus {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+
+/* INFOBULLE */
+
+.popover-info {
+  display: inline;
+}
+
+.popover-info-content {
+  display: none;
+}
+
+button.popover-info-toggle,
+a.popover-info-toggle {
+  margin-left: 5px;
+
+  height: 1.6rem;
+  width: 1.6rem;
+
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 0.8rem;
+  color: #ffffff;
+}
+
+a.popover-info-toggle {
+  display: inline-block;
+  color: #000000;
+  border-color: #000000;
+  line-height: 1.6rem;
+  text-align: center;
+}
+
+a.popover-info-toggle:hover,
+a.popover-info-toggle:active {
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.popover {
+  padding: 0;
+  padding-top: 12px;
+}
+
+.popover-content {
+  padding: 12px;
+}
+
+.popover button.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 12px;
+  opacity: 1;
+}
+
+.popover button.close:before {
+  display: block;
+  width: 12px;
+  height: 12px;
+
+  content: "";
+  background-image: url("../images/x.png");
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+}
+
+button.popover-info-toggle:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+main .carousel {
+  margin-bottom: 60px;
+}
+
+main .carousel-inner > .item > img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-height: 400px;
+  width: auto;
+}
+
+main .carousel-control {
+  width: 30px;
+  padding: 0;
+
+  border: none;
+  color: #000000;
+  text-shadow: none;
+  opacity: 1;
+}
+main .carousel-control:hover,
+main .carousel-control:active {
+  color: #000000;
+  opacity: 0.7;
+}
+
+main .carousel-control:focus {
+  color: #000000;
+  outline: 2px solid #000000;
+}
+
+main .carousel-control.left,
+main .carousel-control.right {
+  background-image: none;
+}
+
+main .carousel-control .glyphicon-chevron-left {
+  margin-left: 0;
+  left: 5px;
+}
+
+main .carousel-control .glyphicon-chevron-right {
+  margin-right: 0;
+  right: 5px;
+}
+
+main .carousel-indicators {
+  margin-bottom: 0;
+  bottom: -40px;
+}
+
+main .carousel-indicators li {
+  position: relative;
+  margin: 0 5px;
+
+  width: 28px;
+  height: 28px;
+
+  border-color: #000000;
+  border-radius: 28px;
+}
+
+main .carousel-indicators li button {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 28px;
+}
+
+main .carousel-indicators li button:hover,
+main .carousel-indicators li button:focus {
+  background-color: #000000;
+}
+
+main .carousel-indicators li button:focus {
+  outline-color: #000000;
+}
+
+main .carousel-indicators li.active {
+  margin: 0 5px;
+
+  width: 28px;
+  height: 28px;
+
+  background-color: #000000;
+}
+
+main .news {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+main .news .inner-news {
+  padding-bottom: 20px;
+}
+
+main .news .newsletter a {
+  margin: 20px auto;
+
+  display: inline-block;
+  padding: 6px 12px;
+
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  line-height: 1.42857143;
+  color: white;
+}
+
+main .news .newsletter a:hover,
+main .news .newsletter a:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* MODALE */
+
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-content button.close {
+  height: 1.6rem;
+  width: 1.6rem;
+
+  border: 1px solid #000000;
+  border-radius: 0.8rem;
+  opacity: 1;
+}
+
+.modal-content button.close:hover {
+  background-color: #000000;
+  color: #ffffff;
+
+  font-weight: normal;
+}
+
+.modal-content .modal-header .modal-title {
+  display: inline-block;
+}
+
+.modal-content .modal-header,
+.modal-content .modal-footer {
+  border: none;
+}
+
+.modal-content .modal-body label {
+  color: #000000;
+}
+
+.modal-content .modal-footer button {
+  margin: 20px auto;
+
+  display: block;
+  padding: 6px 12px;
+  width: 100%;
+
+  background-color: transparent;
+  border: 1px solid #000000;
+  line-height: 1.42857143;
+}
+
+.modal-content .modal-footer button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* FACEBOOK */
+.facebook-comments {
+  list-style: none;
+}
+
+.facebook-comments li {
+  margin-bottom: 20px;
+}
+
+.facebook-comments.retro {
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+
+.facebook-comments .retro button {
+  margin-right: 10px;
+}
+
+.facebook-comments .retro .btn-like {
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+
+  background-color: transparent;
+  border-radius: 1rem;
+}
+
+.facebook-comments .retro button.btn-like .glyphicon {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.facebook-comments .retro button.btn-like:hover {
+  background-color: #ffffff;
+}
+
+.facebook-comments .retro button.btn-like:hover .glyphicon {
+  color: #000000;
+}
+
+.facebook-comments .retro button.btn-reply {
+  padding: 0;
+
+  background-color: transparent;
+  border: none;
+  line-height: 2rem;
+}
+
+.facebook-comments .retro button.btn-reply:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.facebook-comments .retro time {
+  font-size: 0.8rem;
+  color: #939393;
+  vertical-align: middle;
+}
+
+.add-comment .thumb img {
+  width: 48px;
+  height: auto;
+}
+.add-comment label {
+  display: block;
+}
+.add-comment textarea {
+  margin-bottom: 10px;
+
+  width: 100%;
+}
+
+.add-comment input[type="button"] {
+  margin: 20px auto;
+
+  display: block;
+  padding: 6px 12px;
+  width: 100%;
+
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  line-height: 1.42857143;
+}
+
+footer .jm-quebec {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+footer .jm-quebec img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 130px;
+  height: auto;
+}
+footer .social-media {
+  text-align: center;
+  padding-top: 16vh;
+}
+
+footer .social-media ul {
+  margin-top: 10vh;
+
+  padding-left: 0;
+
+  list-style: none;
+}
+
+footer .social-media ul li,
+footer .social-media a {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  margin-right: 19px;
+  background-size: 38px 38px;
+}
+
+footer .social-media ul li:last-child,
+footer .social-media a:last-child {
+  margin-right: 0;
+}
+
+footer .social-media a.facebook {
+  background: url(../images/icon-fb-retna.png) no-repeat;
+  background-size: 38px 38px;
+}
+
+footer .social-media a.twitter {
+  background: url(../images/icon-twitter-retna.png) no-repeat;
+  background-size: 38px 38px;
+}
+
+footer .social-media a.instagram {
+  background: url(../images/icon-instagram.png) no-repeat;
+  background-size: 38px 38px;
+}
+
+/*footer .social-media a.icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: 38px 38px;
+}*/
+
+footer .social-media a.icon:focus {
+  outline-color: #000000;
+}
+
+footer .copyright {
+  padding-top: 5px;
+
+  font-size: 0.8rem;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .banner {
+    background-position-y: -10vh;
+  }
+
+  .banner form {
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+  }
+
+  main .carousel {
+    margin-bottom: 80px;
+  }
+
+  main .carousel-indicators {
+    bottom: -30px;
+  }
+
+  main .carousel-inner > .item > img {
+    max-height: 600px;
+  }
+
+  main .carousel-indicators li,
+  main .carousel-indicators li.active {
+    width: 12px;
+    height: 12px;
+
+    border-radius: 12px;
+  }
+
+  main .news .newsletter button {
+    width: unset;
+  }
+}
+
+.blackscreen {
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+}
+
+#errors {
+  border: 1px solid red;
+  color: red;
+  padding: 20px;
+  display: none;
+}
+
+.page-succes {
+  border: 1px solid green;
+  color: green;
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+  font-weight: bold;
+}
